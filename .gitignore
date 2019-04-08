@@ -1,0 +1,41 @@
+# Code Coverage
+*.jl.cov
+*.jl.*.cov
+*.jl.*.html
+*.jl.mem
+amber.png
+emerald.png
+glass.png
+ruby.png
+snow.png
+updown.png
+gcov.css
+index-sort-f.html
+index-sort-l.html
+index.html
+lcov.info
+test/coverage_run.out
+
+# Building libint
+deps/usr/src/libint2_source
+deps/usr/src/libint2_build
+deps/usr/src/libint2_binaries
+
+# LibInt2 Links
+deps/usr/lib/libint2-QuantumLab.so
+deps/usr/lib/libint2jl.so
+
+# VIM
+*.swo
+*.swp
+
+# Testing
+test/hackbusch_pretables
+test/*.tx93
+test/*.xyz
+
+# ctags
+tags
+
+# Git
+*.orig
